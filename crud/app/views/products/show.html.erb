@@ -1,0 +1,42 @@
+ <div class="container">      
+        <h3>Add a Employee</h3>
+     
+            <div>
+              <label>Employee Name</label>
+              <%= @product.name %>
+            </div>
+
+            <div>
+              <label>Designation</label>
+              <%= @product.desi %>
+            </div>
+
+             <div>
+              <label>Salary</label>
+              <%= @product.sale %>
+            </div>
+
+             <div>
+              <label>Address</label>
+              <%= @product.add %>
+            </div>
+
+             <div>
+              <label>Phone Number</label>
+              <%= @product.phone %>
+            </div>
+
+             <div>
+              <label>City</label>
+              <%= @product.city %>
+            </div>
+          
+            <div>
+              <label>Description</label>
+              <%= @product.short_description %>
+            </div>
+       
+      <div>
+        <%= link_to 'Back', { controller: 'products', action: 'index'} %>
+      </div>
+</div>
